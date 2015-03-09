@@ -104,6 +104,8 @@ function sanctuary_scripts() {
 
 	wp_enqueue_style( 'sanctuary-google-fonts', 'http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans+Condensed:300' );
 
+	wp_enqueue_style( 'sanctuary-google-fonts', '<link http://fonts.googleapis.com/css?family=Open+Sans:400,700' );
+
 	wp_enqueue_script( 'sanctuary-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'sanctuary-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
