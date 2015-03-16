@@ -962,7 +962,14 @@ object {
 	display: block;
 }
 
+.images-in-row_7107{
+	float: left;
+	width: 70%;
+}
 
+.float-right{
+	float: right;
+}
 
 
 /*--------------
@@ -1054,7 +1061,32 @@ pages
 
 
 
+/*-----
+front page
+----*/
+.home-text1{
+	font-family: 'Open Sans Condensed';
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 30px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: right;
 
+
+}
+
+.home-text2{
+	font-family: 'Arvo';
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 25px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: right;
+	margin-right: 45px;
+	margin-top: 30%;
+}
 
 /*-----
 background slider thing
